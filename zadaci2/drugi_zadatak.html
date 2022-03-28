@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <style>
+        fieldset{
+            width:50%;
+        }
+        select{
+            background-color: rgb(240, 243, 247);
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Software Order Form</h1>
+    <form>
+        <fieldset>
+            <legend>License details</legend>
+                <ul>
+                   <li>
+                       <label for="email">Email address</label>
+                       <input type="text" name="email" id="email" required >
+                    </li>
+                    <li>
+                        <label for="website">Website</label>
+                        <input type="text" id="website" name="website" placeholder="http://www.example.com/" required>
+                    </li>
+                    <li>
+                        <label for="number">Number of Licenses</label>
+                        <input type="text" id="number" name="number" placeholder="How many to buy (1-10)" required>
+                    </li>
+                </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Billing details</legend>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="First Last" required>
+                    </li>
+                    <li>
+                        <label for="address">Address</label>
+                        <textarea name="address" id="adress" cols="25" rows="3" placeholder="House number,street, city, state" required></textarea>
+                    </li>
+                    <li>
+                        <label for="code">Postal code</label>
+                        <input type="text" name="code" id="code" placeholder="Post code or zip code" required>
+                    </li>
+                    <li>
+                        <label for="country">Country</label>
+                        <select size="1" multiple>
+                            <option value="australija" selected>Australija</option>
+                            <option value="njemacka">Njemacka</option>
+                            <option value="francuska">Francuska</option>
+                            <option value="italija">Italija</option>
+                            <option value="crna_gora">Crna Gora</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="phone">Phone<i>(optional)</i></label>
+                        <input type="text" name="phone" id="phone" placeholder="Include country prefix,c.g">
+                    </li>
+                </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Payment details</legend>
+            <ul>
+                <li>
+                    <label for="card">Card Number</label>
+                    <input type="text" id="card" name="card" placeholder="As shown on the front of yo" required>
+                </li>
+                <li>
+                    <label for="cvv">CVV code</label>
+                    <input type="text" name="cvv" id="cvv" placeholder="3-digit number on back of" required> 
+                </li>
+                <li>
+                    <label for="date">Expairy date</label>
+                    <input type="text" id="date" name="date" placeholder="YYYY-MM" required>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="Place Your Order">
+    </form>    
+
+
+    
+</body>
+</html>

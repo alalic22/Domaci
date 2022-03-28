@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak</title>
+    <style>
+    table, th, td{
+        border: 1px solid black;
+    }
+    #email, #phone, #position, #website, #salary, #start, #company, #comments{
+        width: 100%;
+    }   
+    </style>
+</head>
+<body>
+    <div id="task_1">
+        <nav>
+            <a href="#task_2">Zadatak2</a>
+            <a href="#task_3">Zadatak3</a>
+            <a href="#task_4">Zadatak4</a>
+        </nav>
+    </div>
+    <div id="task_2">
+        <h1>CV</h1>
+        <img src="../images/slika.jpg" alt="fotografija" height="150" width="150">
+        <h2>Lične informacije:</h2>
+        <p>
+            Ime: Ana <br>
+            Prezime: Lalić<br>
+            Adresa: Nikšić <br>
+            E-mail: lalic.ana@gmail.com
+            
+        </p>
+        <h2>Obrazovanje:</h2>
+        <p>
+            Fakultet: Prirodno-matematički fakultet, Univerzitet Crne Gore <br>
+            Smjer: <a href="https://www.ucg.ac.me/studprog/7/1/2/2021-matematika-i-racunarske-nauke-2017" target="_blank">Matematika i računarske nauke</a>
+           
+        </p>
+        <h2>Programski jezici</h2>
+        <p>Poznavanje sledecih programskih jezika:</p>
+        <ul style="list-style-type: square;">
+            <li>C++</li>
+            <li>Python</li>
+        </ul>
+        <h2>Lične osobine:</h2>
+        <ol type="a">
+            <li>Komunikativnost</li> 
+            <li>Ljubaznost</li>
+            <li>Tolerantnost</li>
+            <li>Upornost...</li>
+        </ol>
+    </div>
+    <div id="task_3">
+        <table>
+            <caption> <b>"Omiljeni filmovi"</b></caption>
+            <tr>
+                <th>Ime filma</th>
+                <th>Kratak opis</th>
+                <th>Zanr</th>
+                <th>Datum izlaska</th>
+                <th>Cover slika</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Gordost i predrasude <i>(Pride & Prejudice)</i></td>
+                <td>
+                    Vrhunska glumačka ekipa u šarmantnoj i hvaljenoj adaptaciji <br>
+                    klasičnog romana Džejn Ostin o pet sestara u britanskoj porodici <br>
+                    kojom upravlja majka, rešena da bogato uda svoje kćeri.
+                </td>
+                <td>
+                    Drama
+                </td>
+                <td>
+                    2005
+                </td>
+                <td>
+                    <img src="../images/slika1.jpg" alt="Slika za film gordost i predrasude">
+                </td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt0414387/">Detaljnije o filmu</a>
+                </td>
+
+               
+            </tr>
+            <tr>
+                <td>
+                    Bezimeni<i>(Unknown)</i>
+                </td>
+                <td>Dr Martin Harris budi se u Berlinu nakon automobiske nesrece. <br>
+                    Otkriva kako ga supruga ne prepoznaje, a drugi čovjek je preuzeo <br>
+                    njegov identitet.Pomaže mu nenadana saveznica, a on sve dublje zalazi<br>
+                    u misteriju koja ce ga natjerati da preispita svoj zdravi um.
+                
+                </td>
+                <td>Akcioni triler</td>
+                <td>2011</td>
+                <td> 
+                    <img src="../images/slika2.jpg" alt="Slika za film bezimeni">
+                </td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt1401152/">Detaljnije o filmu</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Zelena milja <i>(The green mile)</i></td>
+                <td>Ogromni crnac Džon Kofi,koji poseduje natprirodne moći, <br>
+                    a ponaša se kao mali dječak, osuđen je na smrt. <br>
+                    Edgecomb i ostali čuvari su uvjereni u njegovu nevinost,<br>
+                    ali mu ne mogu pomoći.
+
+                </td>
+                <td>Drama</td>
+                <td>1999</td>
+                <td>
+                    <img src="../images/slika3.jpg" alt="slika za film zelena milja">
+                </td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt0120689/">Detaljnije o filmu</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Doba Adaline <i>(The age of Adaline)</i></td>
+                <td>
+                    Tridesetih godina prošlog vijeka neobicna sudbina zadesila je Adaline <br>
+                    Bouman. Nakon automobilske nesrece ova prelijepa mlada žena ostaje zarobljena <br>
+                    u tijelu 29-godišnjakinje i svoju tajnu uspijeva da sakrije gotovo osam decenija.<br>
+                    Sve dok se u njenom životu ne pojavi harizmatični Elis Džouns.
+                </td>
+                <td>Drama, romantika</td>
+                <td>2015</td>
+                <td>
+                    <img src="../images/slika4.png" alt="slika za film doba Adaline">
+                </td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt1655441/">Detaljnije o filmu</a>
+                </td>
+
+
+            </tr>
+
+        </table>
+    </div>
+    <br>
+    <div id="task_4">
+        <h2>Job Application With Resume Upload</h2>
+        <form>
+            <h4>Contact Information</h4>
+            <table style="border:none">
+                <tr>
+                    <td style="border: none;">
+                        <label for="fname">First name *</label>
+                    </td>
+                    <td style="border: none;">
+                        <label for="lname">Last name *</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none">
+                        <input type="text" id="fname" name="fname" required>
+                    </td>
+                    <td style="border:none">
+                        <input type="text" id="lname" name="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="email">Email *</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="phone">Phone *</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="tel" id="phone" name="phone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border:none">
+                        <h4>Position</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        Position you are applying for *
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border:none">
+                        <select>
+                            <option value="nodejs" >Backend NodeJS</option>
+                            <option value="python" selected>Backend Python</option>
+                            <option value="frontend_react">Frontend React</option>
+                            <option value="angular">Frontend Angular</option>
+                        </select>
+                    </td>    
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="upload">Resume upload</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="file" name="upload" id="upload">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="website">website</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="text" id="website" name="website">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="salary">Salary requirements</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="text" id="salary" name="salary">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="start">When can you start?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="text" id="start" name="start">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border:none">
+                        Are you waiting to...?
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border:none">
+                        <input type="radio" name ="yn" id="waiting1">
+                        <label for="waiting1">Yes</label><br>
+                        <input type="radio" name ="yn" id="waiting2">
+                        <label for="waiting2">No</label><br>
+                        <input type="radio" name ="yn" id="waiting3">
+                        <label for="waiting3">Not sure</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="company">Last company you worked for</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <input type="text" id="company" name="company">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: none;">
+                        <label for="comments">Comments</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border:none" colspan="2">
+                        <textarea name="comments" id="comments" cols="7" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border:none">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
